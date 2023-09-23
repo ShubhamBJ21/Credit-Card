@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.run{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    background-color: #e3f2fd;
+
+    animation: run;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-delay: 0.8s;
+}
+
+@keyframes run {
+    to{
+        
+    }
+    
+}
+
+.jerry{
+    margin-left: 45px;
+}
+.container{
+    position: relative;
+    background-image: url(images/bg.png);
+    background-size: cover;
+    padding: 25px;
+    border-radius: 28px;
+    max-width: 380px;
+    width: 100%;
+    box-shadow: 0 5px 10px rgb(0, 0, 0, 0.1);
+}
+
+header, .logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo img{
+    width: 48px;
+}
+
+h5{
+    color: #fff;
+    margin-left: 10px;
+    font-size: 16px;
+    font-weight: 400;
+}
+header .chip{
+    width: 60px;
+}
+
+h6{
+    color: #fff;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+h5.number{
+    margin-top: 4px;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+h5.name{
+    margin-top: 20px;
+}
+.container .card-details{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    align-items: flex-end;
+}
